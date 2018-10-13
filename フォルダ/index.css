@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/kohacu.com_01_nikukyu_3%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.png);
+    background-size: cover;
+}
+
+.header {
+    background-color: #CD853F;
+    height: 90px;
+    color: #FFFFFF;
+}
+
+.header-logo {
+    float: left;
+    line-height: 90px;
+}
+
+.header-logo h1 {
+    font-size: 30px;
+}
+
+.header-list {
+    float: right;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.main {
+    padding: 0px;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+.copy-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(image/%E5%AD%90%E7%8C%AB.jpg);
+    background-size: cover;
+}
+
+/**/
+.contents {
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+/*「welcome」*/
+.copy-container h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: #FF69B4;
+}
+
+/*「yukino」*/
+.copy-container h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 400px;
+}
+
+/*「プロフィール」中央寄せ*/
+.contents-item h1 {
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+/*プロフィール　行間*/
+.main-wrapper p {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*「メモリー」　中央寄せ*/
+.contents-memory p {
+    text-align: center;
+}
+
+/*「memory 文章」*/
+.life {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*「memory 本文」*/
+.item2 wrapper p {
+    padding-top: 50px;
+}
+
+/*「memory　画像」*/
+.memory {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+}
+
+.nisikou {
+    width: 600px;
+    height: px;
+    text-align: center;
+}
+
+.cover {
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    background-color: black;
+    z-index:1000;
+    position: absolute;
+    
+}
+
+figure {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+figcaption {
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    z-index: 2;
+    width: 600px;
+    height: 500px;
+    background: rgba(0, 0, 0, .6);
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 1;
+}
+
+figure:hover figcaption {
+    top: 0;
+    left: 29%;
+}
+
+
+
+
+/*「メモリー　タイトル」*/
+.contents-foam h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+/*「メモリー　行間」*/
+.contents-item p {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+/*「メモリー　上の空間」*/
+.contents-memory {
+    text-align: center;
+    padding-top: 500px;
+}
+
+
+
+/*「お問い合わせ　上の行間」*/
+.contents-foam h1 {
+    text-align: center;
+    padding-top: 500px;
+    padding-bottom: 30px;
+
+}
+
+/*お問い合わせフォーム*/
+.item3-wrapper {
+    text-align: center;
+}
+
+/*問い合わせ画面*/
+input,
+textarea {
+    width: 400px;
+    height: 60px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    text-align: center;
+
+}
+
+.contact-submit {}
+
+
+
+
+/*連絡　上の行間*/
+.contents-tool {
+    text-align: center;
+    padding-top: 500px;
+}
+
+
+/*リンク*/
+. a {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/*連絡　行間*/
+.notelink {
+    padding: 10px;
+    font-size: 30px;
+    background-color: #239b76;
+    margin: 10px 30% 0 30%;
+}
+
+/*連絡　*/
+.twitterlink {
+    padding: 10px;
+    font-size: 30px;
+    background-color: #55acee;
+    margin: 10px 30% 0 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #CD853F;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100px;
+    padding： 40px;
+    bottom: 0;
+    float: left;
+    clear: left;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 30px;
+    padding: 20px 40px;
+}
+
+.footer-list {
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+}
